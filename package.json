@@ -1,0 +1,22 @@
+{
+  "name": "wordclock",
+  "version": "1.0.0",
+  "description": "A word clock",
+  "main": "js/clock.js",
+  "scripts": {
+    "start": "light-server -s . -p 9090 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsemp/WordClock.git"
+  },
+  "author": "Bruno Semperlotti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsemp/WordClock/issues"
+  },
+  "homepage": "https://github.com/bsemp/WordClock#readme",
+  "dependencies": {
+    "light-server": "^2.5.0"
+  }
+}

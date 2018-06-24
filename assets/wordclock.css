@@ -1,0 +1,21 @@
+body {
+	background-color: white;
+}
+
+#clock {
+	background-color: MediumOrchid;
+}
+
+.light_off {
+    fill: black;
+	font-size: 1em;
+	font-weight: normal;
+	font-family: "Courier";
+}
+
+.light_on {
+    fill: white;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: "Courier";
+},
