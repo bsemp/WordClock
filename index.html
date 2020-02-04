@@ -1,17 +1,20 @@
 <html>
-    <title>Word Clock</title>
-    <head>
-        <style type="text/css">
-            @import url(wordclock.css);
-        </style>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
-    </head>
-    <body>
-    <svg id="clock"  width="400" height="400"/>
-    <script type="module">
-        import {Clock} from "./js/clock.js";
-		let clock = new Clock("#clock", 28);
-		clock.start();
-    </script>
-    </body>
+<title>Word Clock</title>
+
+<head>
+  <style type="text/css">
+    @import url(wordclock.css);
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+</head>
+
+<body>
+  <svg id="clock" width="400" height="400" />
+  <script type="module">
+    import { Clock } from "./js/clock.js";
+    let clock = new Clock("#clock", 28);
+    clock.start();
+  </script>
+</body>
+
 </html>
