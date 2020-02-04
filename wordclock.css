@@ -1,21 +1,22 @@
 body {
-	background-color: white;
+  background-color: white;
+  text-align: center;
 }
 
 #clock {
-	background-color: MediumOrchid;
+	background-color: whitesmoke;
 }
 
 .light_off {
-    fill: black;
+  fill: black;
 	font-size: 1.5em;
 	font-weight: normal;
 	font-family: "Courier";
 }
 
 .light_on {
-    fill: white;
+  fill: deepskyblue;
 	font-size: 1.5em;
 	font-weight: bold;
 	font-family: "Courier";
-},
+}
