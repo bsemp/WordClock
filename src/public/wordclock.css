@@ -1,0 +1,22 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+
+#clock {
+  background-color: whitesmoke;
+}
+
+.light_off {
+  fill: black;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-family: "Courier";
+}
+
+.light_on {
+  fill: deepskyblue;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Courier";
+}
