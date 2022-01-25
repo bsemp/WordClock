@@ -2,9 +2,9 @@
   "name": "wordclock",
   "version": "1.0.0",
   "description": "A word clock",
-  "main": "js/clock.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "light-server -s . -p 9090 --open"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/bsemp/WordClock#readme",
   "dependencies": {
-    "light-server": "^2.5.0"
+    "express": "^4.17.2"
   }
 }
