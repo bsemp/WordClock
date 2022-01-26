@@ -1,6 +1,7 @@
 # Word Clock
 
-A clock that gives time with words (French, English)
+A clock that gives time with words (French, English).
+This repo is intended to be a "simulation" to build a physical clock using microcontroller, led, ...
 
 ## Local
 
